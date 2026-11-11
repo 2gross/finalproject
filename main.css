@@ -1,0 +1,140 @@
+body {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color: #0A7B3E ;
+  background-image: url(images/cloverbackground.avif);
+}
+
+.wrapper {
+  background-color: white;
+  width: 960px;
+  margin: 0 auto;
+  border: solid silver;
+  box-shadow: 2px 2px 2px black;
+}
+
+header {
+  background-image: url(images/cloverheader.jpg);
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 200%;
+  color: white;
+  text-shadow: 2px 2px 10px black;
+}
+
+nav {
+  background-color: #77DD77;
+  text-transform: uppercase;
+  border: 2px solid #77DD77;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+nav li {
+  list-style-type: none;
+  padding: 1rem;
+}
+
+nav a{
+  color: white;
+  text-decoration: none;
+  padding: 1rem 2rem;
+}
+
+nav a:hover {
+  background-color: darkgreen;
+  border-radius: 2rem;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  gap: 1rem;
+  padding: .5rem;
+}
+
+.left-side {
+  font-size: 135%;
+  line-height: 1.3;
+  padding: 0 1 rem;
+}
+
+.left-column h2 {
+  font-size: 150%;
+  color: #77DD77;
+  border-bottom: 1px solid #77DD77;
+}
+
+.pic-right {
+  float: right;
+  box-shadow: 2px 2px 7px solid white;
+  margin: 0 0 1rem 1rem;
+}
+
+.right-side {
+  background-color: lightgreen;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+  font-size: 90%;
+  padding: .5rem;
+  border-radius: 30px;
+  box-shadow: inset 2px 2px 10px black;
+  text-wrap: balance;
+}
+
+.right-side h2 {
+  font-size: 175%;
+}
+
+.right-side figcaption {
+  margin-top: .5rem;
+}
+
+.right-side img {
+  border: 3px solid white;
+  border-radius: 15px;
+}
+
+footer {
+  background-color: #77DD77;
+  padding: 1rem;
+  text-align: center;
+  color: white;
+  font-size: 80%;
+  font-style: italic;
+}
+
+img {
+  max-width: 100%;
+}
+
+.gallery figure {
+  margin: 0;
+  text-align: center;
+
+
+}
+
+.gallery img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+.gallery figcaption {
+  text-align: center;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.galleryh1 {
+  font-size: 150%;
+}
